@@ -5,5 +5,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-fyrox = {workspace = true}
+fyrox = { git = "https://github.com/FyroxEngine/Fyrox" }
 rust_tetris = { path = "../game" }
